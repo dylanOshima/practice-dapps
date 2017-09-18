@@ -1,0 +1,15 @@
+{
+  "name": "hello-world-server",
+  "version": "1.0.0",
+  "description": "A server that communicates with the TestRPC hosted contract 'Greeter'",
+  "main": "server/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan Oshima",
+  "license": "ISC",
+  "dependencies": {}
+}
