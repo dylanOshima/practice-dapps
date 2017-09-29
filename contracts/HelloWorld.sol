@@ -5,8 +5,9 @@ contract HelloWorld {
     uint num;
     string message = "Wassup World, I'm a smart smart contract!";
 
-    function setNum(uint _num){
+    function setNum(uint _num) returns(bool){
         num = _num;
+        return true;
     }
 
     function returnNum() returns(uint){
@@ -14,6 +15,11 @@ contract HelloWorld {
     }
 
     function speak() returns(string){
+        return message;
+    }
+
+    function repeatToMe(string s) returns(string){
+        message = s;
         return message;
     }
 
